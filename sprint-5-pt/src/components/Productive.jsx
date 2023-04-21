@@ -1,5 +1,5 @@
 
-export default function Header() {
+export default function Productive({title}) {
   return (
     <section className="m-auto w-full max-w-screen-lg items-center justify-between gap-6 p-6 md:flex">
     <div className="p-6">
@@ -7,7 +7,7 @@ export default function Header() {
     </div>
     <div className="flex flex-col gap-3">
       <h4 className="mt-6 max-w-md text-xl font-semibold text-white md:text-4xl">
-        Stay productive, wherever you are
+        {title}
       </h4>
       <p className="text-gray-300">
         Never let location be an issue when accessing your files. Fylo has

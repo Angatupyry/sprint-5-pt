@@ -12,7 +12,7 @@ export default function App() {
       </div>
         <main className="relative flex flex-col items-center justify-center gap-32 bg-mainBackground">
           <Hero />
-          <Productive />
+          <Productive title="Stay productive, wherever you are"/>
           <FeaturesSection />
         </main>
       <div className="w-full bg-footerBackground">
