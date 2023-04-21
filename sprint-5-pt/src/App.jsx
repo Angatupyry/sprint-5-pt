@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Productive from './components/Productive'
 import FeaturesSection from './components/FeaturesSection'
 import TestimonialsSection from './components/TestimonialsSection'
+import SignupCTA from './components/SignupCTA'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <FeaturesSection />
           <Productive title="Stay productive, wherever you are"/>
           <TestimonialsSection />
+          <SignupCTA />
         </main>
       <div className="w-full bg-footerBackground">
         <Footer />
